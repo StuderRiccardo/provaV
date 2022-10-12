@@ -1,6 +1,9 @@
-<ul>
-    <li *ngFor="let name of names">
-        <app-cars [name]="name"></app-cars>
-    </li>
-   
-</ul>
+<div class="sfondo">
+    <div class="card-header" > 
+
+        <div class="card" *ngFor="let name of names">
+                <app-cars [name]="name"></app-cars>
+        </div>
+    </div>
+</div>
+    
